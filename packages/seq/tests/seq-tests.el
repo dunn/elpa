@@ -28,6 +28,7 @@
 
 (require 'ert)
 (require 'seq)
+(require 'map)
 
 (defmacro with-test-sequences (spec &rest body)
   "Successively bind VAR to a list, vector, and string built from SEQ.
